@@ -7,7 +7,6 @@
     hosts:
       ubuntu:
         ansible_connection: docker
-  locahost:
     hosts:
       localhost:
         ansible_connection: local

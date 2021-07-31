@@ -1,0 +1,13 @@
+---
+java_jdk_version: 11.0.12
+java_oracle_jdk_package: jdk-11.0.12_linux-x64_bin.tar.gz
+
+elastic_version: "7.10.1"
+elastic_home: "/opt/elastic/{{ elastic_version }}"
+
+kibana_version: "7.13.2"
+kibana_home: "/opt/kibana/{{ kibana_version }}"
+
+logstash_version: "7.13.2"
+logstash_home: "/opt/logstash/{{ logstash_version }}"
+logstash_elastic_ip: "192.168.33.11"

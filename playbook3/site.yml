@@ -1,0 +1,7 @@
+---
+- name: Install ELK
+  hosts: all
+  roles:
+    - mnt-homeworks-ansible
+    - elastic
+    - kibana

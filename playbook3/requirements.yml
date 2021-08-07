@@ -3,3 +3,14 @@
        scm: git
        version: "1.0.1"
        name: java 
+       
+       
+     - src: git@github.com:alexspedan/kibana-role.git
+       scm: git
+       version: "1.0.0"
+       name: kibana
+    
+     - src: git@github.com:alexspedan/elastic-role.git
+       scm: git
+       version: "1.0.0"
+       name: elastic
